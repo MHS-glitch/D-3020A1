@@ -1,0 +1,60 @@
+body{
+    background-color: grey;
+    margin: 0%;
+}
+.grid-container{
+    display: grid;
+    grid-auto-rows: 1fr 3fr 1fr;
+    grid-auto-columns:(1px, auto);
+    grid-template-areas: 
+    "header header"
+    "body suggestions"
+    "footer footer";
+    
+}
+.header{
+    background-color: green;
+    grid-area: header;
+    
+}
+.body{
+    background-color: white;
+    grid-area: body;
+}
+.body div{
+    display: inline-block;
+}
+.suggestions{
+    background-color: white;
+    grid-area: suggestions;
+    text-align: right;
+    
+}
+.suggestions li{
+    list-style: none;
+}
+.s1{
+    width: 112.5px;
+    height: 112.5px;
+}
+.s2{
+    width: 112.5px;
+    height: 112.5px;
+}
+.s3{
+    width: 112.5px;
+    height: 112.5px;
+}
+.footer{
+    background-color:white;
+    grid-area: footer;
+    
+}
+#navitems{
+    list-style: none;
+    text-align: center;
+}
+#navitems li{
+    display: inline;
+
+}
