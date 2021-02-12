@@ -120,6 +120,15 @@ body{
     border-top: 1px solid black; 
 }
 
+.footer h3{
+    margin-left: 10px;
+}
+
+.footer p{
+    margin-left: 10px;
+}
+
+
 #navitems{
     list-style: none;
 }
